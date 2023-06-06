@@ -3,6 +3,12 @@ from django.contrib.auth.models import AbstractUser, Group, Permission, Permissi
 from django.utils.translation import gettext_lazy as _
 
 class User(AbstractUser):
+    """
+    Custom user model.
+
+    Inherits from Django's AbstractUser model.
+    Adds an email field and relationships with groups and permissions.
+    """
     email = models.EmailField(unique=True)
     groups = models.ManyToManyField(
         Group,
@@ -25,12 +31,21 @@ class User(AbstractUser):
     )
 
 class WebsiteUser(User):
+    """
+    Proxy model for User.
+
+    This model allows extending the User model without creating a new database table.
+    """
     class Meta:
         proxy = True
 
 class GalleryImage(models.Model):
+    """
+    Model for gallery images.
+
+    Each image has a title and an associated image file.
+    """
     title = models.CharField(max_length=100)
     image = models.ImageField(upload_to='gallery')
 
 WebsiteUser.groups.through.__str__ = lambda self: f"{self.user} belongs to {self.group}"
-

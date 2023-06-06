@@ -3,7 +3,6 @@ from django.contrib.auth import views as auth_views
 from . import views
 from .views import MyLoginView
 
-
 urlpatterns = [
     path('', views.home, name='home'),
     path('accounts/login/', MyLoginView.as_view(), name='login'),
@@ -15,3 +14,11 @@ urlpatterns = [
     path('upload/', views.upload_image, name='upload_image'),
     path('user_authentication/', views.user_authentication, name='user_authentication'),
 ]
+
+"""
+URL patterns for the application.
+
+This module defines the URL patterns for the views in the application.
+Each URL pattern is associated with a specific view and a name for reverse URL lookups.
+"""
+

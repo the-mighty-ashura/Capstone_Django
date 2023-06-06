@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>About Us - Asteroid Mining Company</title>
+  <style>
+    body {
+      background-image: url("{% static 'asteroid.jpg' %}");
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Space Mining Technologies</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact/">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-4 text-center text-white mb-5">Welcome to our asteroid mining company!</h1>
+        <p class="lead text-white">We specialize in extracting valuable materials from asteroids in our solar system and bringing them back to Earth. Our team of experts uses state-of-the-art technology and cutting-edge techniques to safely and efficiently extract these resources.</p>
+        <p class="lead text-white">We are always looking for new asteroids to mine, and we invite the public to submit images of asteroids they have photographed. If we choose an asteroid submitted by a member of the public to mine, we will offer them a percentage of the materials sold as a reward.</p>
+        <p class="lead text-white">If you are interested in learning more about asteroid mining or have an asteroid image you'd like to submit, please visit our <a href="{% url 'contact' %}">Contact Us</a> page for more information. Thank you for considering our company for your asteroid mining needs.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-9Fls0lY+UIJIXtFhF5VjCJ3na0agW4MvEm7QeNy7aCF9BjRWavmc3OtwFqQRiFf3"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+    integrity="sha384-xrRvE3I/DkIkXmOJ+6qrZJiHp0f8kFA/6DwPnKT/E8KFYIHav/hjBzzgJbOXm3kJ"
+    crossorigin="anonymous"></script>
+</body>
