@@ -4,7 +4,7 @@
 
 ## Description
 
-Space Mining Technologiese is a platform where users can upload and view images of asteroids. This unique platform offers an opportunity for users to potentially earn a share of the profits by having their uploaded pictures selected for the next mining operation.
+Space Mining Technologies is a platform where users can upload and view images of asteroids. This unique platform offers an opportunity for users to potentially earn a share of the profits by having their uploaded pictures selected for the next mining operation.
 
 The website allows users to create an account and upload images of asteroids they have encountered or discovered. These images are then reviewed by experts to determine their suitability for future mining operations. If a user's uploaded image is chosen for mining, they will be eligible to receive a share of the profits generated from the successful mission.
 
