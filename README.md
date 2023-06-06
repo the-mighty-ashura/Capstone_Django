@@ -34,7 +34,7 @@ Space Mining Technologies aims to create an engaging community of space enthusia
 ### Using venv (Virtual Environment)
 
 1. Clone the repository:
-  git clone <repository_url>https://github.com/the-mighty-ashura/Capstone_Django/tree/master
+  git clone <repository_url>(https://github.com/the-mighty-ashura/Capstone_Django/tree/master)
 
 
 2. Navigate to the project directory:
@@ -68,7 +68,7 @@ Space Mining Technologies aims to create an engaging community of space enthusia
 ### Using Docker
 
 1. Clone the repository:
-  git clone <repository_url>https://github.com/the-mighty-ashura/Capstone_Django/tree/master
+  git clone <repository_url>(https://github.com/the-mighty-ashura/Capstone_Django/tree/master)
 
 
 2. Navigate to the project directory:
