@@ -1,6 +1,6 @@
 # Space Mining Technologies
 
-Space Mining Technologies
+![Alt Text](asteroidmining/website/static/logo.png)
 
 ## Description
 
@@ -88,7 +88,7 @@ Space Mining Technologies aims to create an engaging community of space enthusia
 
 ## Documentation
 
-To access the project documentation, please visit the [Sphinx Documentation](asteroidmining/docs/_build/html/index.html).
+To access the project documentation, please visit the [Sphinx Documentation](asteroidmining/docs/_build/html/index.html)
 
 
 ## Contributing
