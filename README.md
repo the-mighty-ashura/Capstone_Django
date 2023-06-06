@@ -88,7 +88,7 @@ Space Mining Technologies aims to create an engaging community of space enthusia
 
 ## Documentation
 
-To access the project documentation, please visit the [Sphinx Documentation](https://example.com/path/to/documentation/index.html).
+To access the project documentation, please visit the [Sphinx Documentation](asteroidmining/docs/_build/html/index.html).
 
 
 ## Contributing
